@@ -216,5 +216,7 @@ t2_plot_2 <-
 # Step 8 - Store plots ----------------------------------------------------
 #--------------------------------------------------------------------------#
 
-ggsave("03_output/02_graphs/task2_plot_1.png", plot = t2_plot_1)
-ggsave("03_output/02_graphs/task2_plot_2.png", plot = t2_plot_2)
+ggsave("03_output/02_graphs/task2_plot_1.png", plot = t2_plot_1,
+       dpi=1200, width = 7, height = 5, units = "in")
+ggsave("03_output/02_graphs/task2_plot_2.png", plot = t2_plot_2,
+       dpi=1200, width = 7, height = 5, units = "in")

@@ -18,7 +18,7 @@ MICS data from over 2,500 children aged 36 to 60 months, collected from mothers 
 
 Figure 1 illustrates the predicted regression values of scores against the children's age in months.[^1] The lines represent estimates, and the grey shading indicates uncertainty, which increases at the edges where fewer data points are available.
   
-```{r plot, echo=FALSE, out.width='65%', fig.cap="Overall Developmental Scores", fig.align='center'}
+```{r plot, echo=FALSE, out.width='75%', fig.cap="Overall Developmental Scores", fig.align='center'}
 # List packages that we need
 pkgs <- c("knitr")
 
@@ -43,7 +43,7 @@ The lines for Learning (Lrn) and Literacy (Lit) show increasing trends, with Lea
 
 Figure 2 explores individual questions related to Physical (EC9 and EC10) and Socio-emotional Development (EC13, EC14, and EC15). The ability to pick up small objects (EC9) is developing as expected, but there is no improvement in the frequency of illness (EC10).[^2]
 
-```{r echo=FALSE, out.width='65%', fig.cap = "Physical and Socio-Emotional Scores", fig.align='center'}
+```{r echo=FALSE, out.width='75%', fig.cap = "Physical and Socio-Emotional Scores", fig.align='center'}
 # Display the plot from the specified file path
 knitr::include_graphics("../03_output/02_graphs/task2_plot_2.png")
 ```
